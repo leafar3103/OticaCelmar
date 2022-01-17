@@ -71,6 +71,58 @@
     border: 2px solid #E97707; /* Laranja */
     border-radius: 5px;
 }
+.depoimento{
+    background-color: #21264A ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.depoimento__titulo{
+    padding: 24px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.depoimento__corpo{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.informacoes{
+    background-color: #333333;
+
+}
+.informacoes__titulo{
+    color: #ffffff;
+    
+    
+}.informacoes__corpo{
+    color: #a09d9d;
+    font-weight: 400;  
+}
+.card__largura{
+    max-width: 18rem;
+}
+.informacoes__btn{
+    width: 130px;
+    background-color: #E97707;
+    color: #ffffff;
+    border: 2px solid #E97707; /* Laranja */
+    border-radius: 5px;
+}
+.localizacao{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: #21264A;
+}
+.localizacao__mapa{
+    padding: 24px;
+}
 
 @media screen and (min-width: 320px) {
   .imagem-carrossel {
@@ -81,11 +133,17 @@
       font-size: 1.5rem;
       right: 10vw;
   }
+  .localizacao{
+    flex-direction: row;
 }
+  
+}
+
 @media screen and (min-width: 540px) {
     .whats--chamada{
         right: 15vw;
     }
+    
   }
 @media screen and (min-width: 630px) {
     .whats--chamada{
