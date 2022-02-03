@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color: #f3f3f3;
+}
 a:hover{
    text-decoration: none;
 }
