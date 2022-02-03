@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/imagens/logo-rodape.svg" type="image/x-icon" /> <!--Preciso trocar o fav Icon-->
     <title>Otica Celmar</title>
 </head>
 
@@ -19,18 +20,23 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav"><a href="https://api.whatsapp.com/send?phone=5511974533002&text=sua%20mensagem" target="_blank"> 
+            <li class="icones menu__icone 
+            "><svg width="20" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M26.782 4.57711C24.1038 1.90125 20.5445 0.289633 16.7667 0.0421928C12.9888 -0.205247 9.24979 0.928346 6.24539 3.232C3.241 5.53565 1.17592 8.85243 0.434509 12.565C-0.306905 16.2777 0.325846 20.1332 2.215 23.4141L0 31.5001L8.276 29.3271C10.5643 30.5752 13.1295 31.2285 15.736 31.2271H15.743C19.8966 31.2265 23.882 29.5862 26.8327 26.6629C29.7834 23.7395 31.4607 19.7695 31.5 15.6161C31.4777 13.5563 31.0495 11.5211 30.24 9.62691C29.4304 7.73273 28.2554 6.01674 26.782 4.57711ZM15.743 28.5961C13.4177 28.598 11.1348 27.9738 9.134 26.7891L8.663 26.5081L3.755 27.7951L5.063 23.0071L4.754 22.5151C3.71576 20.8058 3.08588 18.8801 2.91334 16.8877C2.74081 14.8952 3.03029 12.8899 3.75926 11.0276C4.48822 9.1653 5.63702 7.4963 7.11627 6.15044C8.59552 4.80458 10.3653 3.81816 12.288 3.2679C14.2107 2.71765 16.2344 2.61841 18.2017 2.97791C20.169 3.3374 22.0269 4.14594 23.6307 5.34061C25.2345 6.53528 26.5411 8.08387 27.4488 9.86591C28.3565 11.6479 28.8408 13.6154 28.864 15.6151C28.8274 19.0705 27.4289 22.3719 24.9724 24.8023C22.5158 27.2326 19.1996 28.5956 15.744 28.5951L15.743 28.5961ZM22.859 18.8791C22.472 18.6791 20.553 17.7401 20.194 17.6131C19.835 17.4861 19.575 17.4131 19.315 17.8131C19.055 18.2131 18.31 19.0791 18.078 19.3461C17.846 19.6131 17.621 19.6461 17.234 19.4461C14.9873 18.5491 13.1142 16.9118 11.925 14.8051C11.525 14.1161 12.325 14.1651 13.071 12.6751C13.1218 12.5673 13.1452 12.4487 13.1391 12.3297C13.133 12.2107 13.0976 12.0951 13.036 11.9931C12.936 11.7931 12.157 9.87711 11.836 9.09311C11.52 8.33411 11.196 8.43911 10.957 8.42511C10.718 8.41111 10.472 8.41111 10.212 8.41111C10.0145 8.4165 9.8203 8.46233 9.64125 8.54574C9.4622 8.62916 9.30215 8.74841 9.171 8.8961C8.72932 9.31377 8.37934 9.81874 8.14332 10.3789C7.90729 10.9391 7.79038 11.5423 7.8 12.1501C7.92868 13.6207 8.48059 15.0225 9.389 16.1861C9.589 16.4461 12.138 20.3861 16.055 22.0781C18.53 23.1471 19.5 23.2381 20.738 23.0551C21.281 22.9448 21.7952 22.7228 22.2479 22.4033C22.7007 22.0838 23.0821 21.6738 23.368 21.1991C23.6225 20.6156 23.7007 19.9705 23.593 19.3431C23.505 19.1671 23.245 19.0691 22.859 18.8791Z" fill="#E97707"/>
+              </svg>
+                <div class="icones__font menu__icone " >11 97453-3002</div></li></a>
             <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#sobre">Sobre</a>
-            <a class="nav-item nav-link" href="#cta">Contato</a>
+            <a class="nav-item nav-link" href="#contato">Contato</a>
             <!-- <a class="nav-item nav-link disabled" href="#contato">Contato</a> -->
           </div>
         </div>
       </nav>
     </section>
     
-<main class="principal">
-    <section id="home" class="home">
+<main >
+    <section id="home" >
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -39,10 +45,20 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100 imagem-carrossel " src="assets/imagens/Galeria.png" alt="Carrossel-01">
+                <picture>
+                  <source srcset="assets/imagens/Galeria-sm.png" media="(max-width:400px)"type="image/svg+xml"class="imagem-carrossel-sm" >
+                  <source srcset="assets/imagens/Galeria.png" media="(max-width:401px)type="image/svg+xml" class="imagem-carrossel-big">
+                  <img src="assets/imagens/Galeria.png" class="imagem-carrossel-big" alt="Imagem Carrossel-01">
+                </picture>
+                <!-- <img class="d-block w-100 imagem-carrossel  " src="assets/imagens/Galeria.png" alt="Carrossel-01"> -->
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100 imagem-carrossel " src="assets/imagens/banner-02.JPG" alt="Carrossel-02">
+                <picture class="imagem-carrossel-sm">
+                  <source srcset="assets/imagens/Banner-sm.png" media="(max-width:400px)" type="image/svg+xml" > 
+                  <source srcset="assets/imagens/banner-02.jpg" media="(max-width:401px)"type="image/svg+xml" class="imagem-carrossel-big">
+                  <img src="assets/imagens/banner-02.JPG" class="imagem-carrossel-big" alt="Imagem Carrossel-02">
+                </picture>
+                <!-- <img class="d-block w-100 imagem-carrossel " src="assets/imagens/banner-02.JPG" alt="Carrossel-02"> -->
               </div>
              </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -67,7 +83,7 @@
     
     </section>
     
-    <secttion id="sobre"  >
+    <secttion id="sobre">
         <div class="bg-sobre  ">
         <h2 class="titulo-sobre">Sobre Nós</h2>
         <article class="sobre">
@@ -100,14 +116,14 @@
          <div class="row justify-content-center">
          <body class="informacoes__corpo">
           <div class="card card__largura p-0 m-4  col-12 col-md-3" style="width: 18rem;">
-            <img class="card-img-top" src="assets/imagens/banner-02.JPG" alt="Card image cap">
+            <img class="card-img-top card__altura" src="assets/imagens/banner-02.JPG" alt="Card image cap">
             <div class="card-body informacoes__corpo">
               <h5 class="card-title">Modelo Gatinho</h5>
               <p class="card-text">Esse modelo gatinho é excelente para o usu do dia a dia.</p>
               <a href="#"><button class="informacoes__btn" data-toggle="modal" data-target="#gatinho">Mais</button></a>
 
               <!-- Modal -->
-              <div class="modal fade" id="gatinho" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade justify-content-center m-0 col-12" id="gatinho" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -117,7 +133,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <img class="card-img-top" src="assets/imagens/banner-02.JPG" alt="Card image cap">
+                      <img class="card-img-top card__altura" src="assets/imagens/banner-02.JPG" alt="Card image cap">
                       O modelo gatinho é muito utilizado aqui em São Paulo, sendo a preferência das meninas. 
                     </div>
                     <div class="modal-footer">
@@ -131,13 +147,13 @@
             </div>
           </div>
           <div class="card card__largura p-0 m-4 col-12 col-md-3" style="width: 18rem;">
-            <img class="card-img-top" src="assets/imagens/banner-02.JPG" alt="Card image cap">
+            <img class="card-img-top card__altura" src="assets/imagens/card-01.JPG" alt="Card image cap">
             <div class="card-body informacoes__corpo">
               <h5 class="card-title">Modelo redondo</h5>
-              <p class="card-text">Esse modelo gatinho é excelente para o usu do dia a dia.</p>
+              <p class="card-text">Esse modelo redondo é excelente para o usu do dia a dia.</p>
               <a href="#"><button class="informacoes__btn" data-toggle="modal" data-target="#redondo">Mais</button>  </a>
               <!-- Modal -->
-              <div class="modal fade" id="redondo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade justify-content-center m-0 col-12" id="redondo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -147,7 +163,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <img class="card-img-top" src="assets/imagens/banner-02.JPG" alt="Card image cap">
+                      <img class="card-img-top card__altura" src="assets/imagens/card-01.JPG" alt="Card image cap">
                       O modelo Redondo é muito utilizado aqui em São Paulo, sendo a preferência das meninas. 
                     </div>
                     <div class="modal-footer">
@@ -156,28 +172,28 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> 
              <!-- Modal fim -->
-            </div>
+            </div> 
           </div>
-          <div class="card card__largura p-0 m-4 col-12 col-md-3" style="width: 18rem;">
-            <img class="card-img-top" src="assets/imagens/banner-02.JPG" alt="Card image cap">
+          <div class="card card__largura  p-0 m-4 col-12 col-md-3" style="width: 18rem;">
+            <img class="card-img-top card__altura" src="assets/imagens/card-02.JPG" alt="Card image cap">
             <div class="card-body informacoes__corpo">
-              <h5 class="card-title">Modelo Aviador</h5>
-              <p class="card-text">Esse modelo gatinho é excelente para o usu do dia a dia.</p>
+              <h5 class="card-title">Modelo Esportivo</h5>
+              <p class="card-text">Esse modelo Esportivo é excelente para o usu do dia a dia.</p>
               <a href="#"><button class="informacoes__btn" data-toggle="modal" data-target="#aviador">Mais</button>  </a>
               <!-- Modal -->
-              <div class="modal fade" id="aviador" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade justify-content-center m-0 col-12"  id="aviador" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
-                  <div class="modal-content">
+                  <div class="modal-content"> 
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Aviador</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">Esportivo</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <img class="card-img-top" src="assets/imagens/banner-02.JPG" alt="Card image cap">
+                      <img class="card-img-top card__altura" src="assets/imagens/card-02.JPG" alt="Card image cap">
                       O modelo Aviador é muito utilizado aqui em São Paulo, sendo a preferência das meninas. 
                     </div>
                     <div class="modal-footer">
@@ -195,26 +211,80 @@
       </div>
     </div>
    </section>
-   <section id="localizacao"  > 
-     
-       <address class="localizacao" >
-       <ul >
-         <li> Av. Miriam, 180</li>
-         <li> 11 97453-3002</li>
-         <li> 11 4164-2344</li>
-         <li> oticacelmar@gmail.com</li>
-         <li> <i>Horario de Funcionamento</i></li>
+   <div id="contato" class="localizacao__titulo" >
+   <h2>Contato </h2> 
+  </div>
+    <section  class="localizacao" >
+      
+    <div class="localizacao__espacamento">
+       <ul class="icones__container">
+         <li class="icones"> <svg width="15" height="30" viewBox="0 0 21 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10.5 3.05255e-06C9.12083 -0.00104895 7.75498 0.269824 6.48058 0.797125C5.20619 1.32443 4.04826 2.09781 3.07304 3.07304C2.09781 4.04826 1.32443 5.20619 0.797125 6.48058C0.269823 7.75498 -0.00104895 9.12083 3.05255e-06 10.5C3.05255e-06 18.375 10.5 30 10.5 30C10.5 30 21 18.375 21 10.5C21.0011 9.12083 20.7302 7.75498 20.2029 6.48058C19.6756 5.20619 18.9022 4.04826 17.927 3.07304C16.9517 2.09781 15.7938 1.32443 14.5194 0.797125C13.245 0.269824 11.8792 -0.00104895 10.5 3.05255e-06ZM10.5 14.25C9.75832 14.25 9.0333 14.0301 8.41661 13.618C7.79993 13.206 7.31928 12.6203 7.03545 11.9351C6.75163 11.2498 6.67736 10.4958 6.82206 9.76841C6.96675 9.04099 7.32391 8.3728 7.84835 7.84835C8.3728 7.32391 9.04099 6.96675 9.76841 6.82206C10.4958 6.67736 11.2498 6.75163 11.9351 7.03545C12.6203 7.31928 13.206 7.79993 13.618 8.41661C14.0301 9.0333 14.25 9.75832 14.25 10.5C14.2497 11.4945 13.8546 12.4482 13.1514 13.1514C12.4482 13.8546 11.4945 14.2497 10.5 14.25Z" fill="#E97707"/>
+          </svg>
+          <div class="icones__font">Av. Miriam, 180 - Carapicuiba </div></li>
+         <li class="icones"><svg width="20" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M26.782 4.57711C24.1038 1.90125 20.5445 0.289633 16.7667 0.0421928C12.9888 -0.205247 9.24979 0.928346 6.24539 3.232C3.241 5.53565 1.17592 8.85243 0.434509 12.565C-0.306905 16.2777 0.325846 20.1332 2.215 23.4141L0 31.5001L8.276 29.3271C10.5643 30.5752 13.1295 31.2285 15.736 31.2271H15.743C19.8966 31.2265 23.882 29.5862 26.8327 26.6629C29.7834 23.7395 31.4607 19.7695 31.5 15.6161C31.4777 13.5563 31.0495 11.5211 30.24 9.62691C29.4304 7.73273 28.2554 6.01674 26.782 4.57711ZM15.743 28.5961C13.4177 28.598 11.1348 27.9738 9.134 26.7891L8.663 26.5081L3.755 27.7951L5.063 23.0071L4.754 22.5151C3.71576 20.8058 3.08588 18.8801 2.91334 16.8877C2.74081 14.8952 3.03029 12.8899 3.75926 11.0276C4.48822 9.1653 5.63702 7.4963 7.11627 6.15044C8.59552 4.80458 10.3653 3.81816 12.288 3.2679C14.2107 2.71765 16.2344 2.61841 18.2017 2.97791C20.169 3.3374 22.0269 4.14594 23.6307 5.34061C25.2345 6.53528 26.5411 8.08387 27.4488 9.86591C28.3565 11.6479 28.8408 13.6154 28.864 15.6151C28.8274 19.0705 27.4289 22.3719 24.9724 24.8023C22.5158 27.2326 19.1996 28.5956 15.744 28.5951L15.743 28.5961ZM22.859 18.8791C22.472 18.6791 20.553 17.7401 20.194 17.6131C19.835 17.4861 19.575 17.4131 19.315 17.8131C19.055 18.2131 18.31 19.0791 18.078 19.3461C17.846 19.6131 17.621 19.6461 17.234 19.4461C14.9873 18.5491 13.1142 16.9118 11.925 14.8051C11.525 14.1161 12.325 14.1651 13.071 12.6751C13.1218 12.5673 13.1452 12.4487 13.1391 12.3297C13.133 12.2107 13.0976 12.0951 13.036 11.9931C12.936 11.7931 12.157 9.87711 11.836 9.09311C11.52 8.33411 11.196 8.43911 10.957 8.42511C10.718 8.41111 10.472 8.41111 10.212 8.41111C10.0145 8.4165 9.8203 8.46233 9.64125 8.54574C9.4622 8.62916 9.30215 8.74841 9.171 8.8961C8.72932 9.31377 8.37934 9.81874 8.14332 10.3789C7.90729 10.9391 7.79038 11.5423 7.8 12.1501C7.92868 13.6207 8.48059 15.0225 9.389 16.1861C9.589 16.4461 12.138 20.3861 16.055 22.0781C18.53 23.1471 19.5 23.2381 20.738 23.0551C21.281 22.9448 21.7952 22.7228 22.2479 22.4033C22.7007 22.0838 23.0821 21.6738 23.368 21.1991C23.6225 20.6156 23.7007 19.9705 23.593 19.3431C23.505 19.1671 23.245 19.0691 22.859 18.8791Z" fill="#E97707"/>
+          </svg> 
+            <div class="icones__font">11 97453-3002</div></li>
+         <li class="icones"> <svg width="21" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg" >
+          <path d="M30.116 21.906L23.334 19C23.0437 18.8755 22.7207 18.8489 22.414 18.9243C22.1072 18.9997 21.8334 19.173 21.634 19.418L18.634 23.087C13.9217 20.8642 10.1295 17.071 7.908 12.358L11.577 9.35804C11.8224 9.15894 11.996 8.88512 12.0715 8.57824C12.147 8.27137 12.1201 7.94825 11.995 7.65804L9.088 0.879043C8.95188 0.566827 8.71109 0.311887 8.40714 0.158181C8.1032 0.00447376 7.75515 -0.0383674 7.423 0.0370433L1.126 1.49004C0.805863 1.56399 0.520238 1.74425 0.315739 2.00142C0.111239 2.25859 -6.18065e-05 2.57748 1.60226e-07 2.90604C-0.00039388 6.59551 0.72601 10.2489 2.13773 13.6576C3.54944 17.0663 5.61882 20.1635 8.22766 22.7724C10.8365 25.3812 13.9337 27.4506 17.3424 28.8623C20.7511 30.274 24.4045 31.0004 28.094 31C28.4227 31.0003 28.7419 30.8891 28.9992 30.6846C29.2566 30.4801 29.437 30.1943 29.511 29.874L30.964 23.574C31.0389 23.2404 30.9953 22.891 30.8405 22.586C30.6857 22.2811 30.4296 22.0396 30.116 21.903V21.906Z" fill="#E97707"/>
+          </svg> <div class="icones__font">
+         11 4164-2344</div> </li>
+         <li class="icones"> <svg width="20" height="14" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M27 0H3C2.20695 0.00396529 1.44774 0.321786 0.88837 0.883965C0.329001 1.44615 0.0149902 2.20694 0.0150001 3L0 21C0.00237409 21.7949 0.319207 22.5566 0.881302 23.1187C1.4434 23.6808 2.20508 23.9976 3 24H27C27.7949 23.9976 28.5566 23.6808 29.1187 23.1187C29.6808 22.5566 29.9976 21.7949 30 21V3C29.9976 2.20508 29.6808 1.4434 29.1187 0.881302C28.5566 0.319207 27.7949 0.00237409 27 0ZM27 6L15 13.5L3 6V3L15 10.5L27 3V6Z" fill="#E97707"/>
+          </svg><div class="icones__font">
+          oticacelmar@gmail.com</div> </li>
+         <li class="icones"> <svg width="20" height="20" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32.8001 17.75C32.8001 20.8156 31.891 23.8124 30.1878 26.3613C28.4847 28.9103 26.0639 30.897 23.2316 32.0701C20.3994 33.2433 17.2829 33.5502 14.2762 32.9522C11.2694 32.3541 8.50761 30.8779 6.3399 28.7102C4.17219 26.5424 2.69595 23.7806 2.09788 20.7739C1.49981 17.7672 1.80676 14.6507 2.97992 11.8184C4.15308 8.98615 6.13976 6.56538 8.68872 4.86222C11.2377 3.15906 14.2344 2.25 17.3001 2.25C21.4109 2.25 25.3534 3.88303 28.2602 6.78984C31.167 9.69666 32.8001 13.6391 32.8001 17.75V17.75Z" stroke="#E97707" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M17.425 8.58301V17.583L23.425 20.583" stroke="#E97707" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg><div class="icones__font">
+          Horario de Funcionamento</div></li>
+          <p class="icones__paragrafo">Seg. a Sex. das 9h as 16:30</p>
+          <p class="icones__paragrafo">Sab. das 9h as 12h</p>
+          <div class="icones__sociais"><a href="https://www.facebook.com/OticaCelmar"><svg width="30" height="30" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg" >
+            <g filter="url(#filter0_d_3_174)">
+            <path d="M46.3929 23.126C46.3691 19.3093 45.2537 15.5791 43.1783 12.3759C41.103 9.17264 38.1544 6.63013 34.6807 5.04857C31.207 3.46701 27.3533 2.91245 23.5746 3.45036C19.7959 3.98828 16.2501 5.5962 13.3557 8.08428C10.4614 10.5724 8.33941 13.8367 7.24038 17.4918C6.14135 21.1469 6.11116 25.0402 7.15338 28.712C8.19559 32.3837 10.2667 35.6805 13.1221 38.2132C15.9775 40.7459 19.498 42.4086 23.2679 43.005V28.942H18.1869V23.126H23.2679V18.693C23.2679 13.65 26.2519 10.865 30.8219 10.865C32.3219 10.8861 33.8182 11.0175 35.2989 11.258V16.207H32.7759C30.2919 16.207 29.5169 17.758 29.5169 19.349V23.126H35.0639L34.1769 28.942H29.5169V43.005C34.2345 42.2401 38.5249 39.8185 41.6179 36.1752C44.7109 32.5318 46.4039 27.9052 46.3929 23.126Z" fill="#E97707"/>
+            </g>
+            <defs>
+            <filter id="filter0_d_3_174" x="0.393311" y="0.250732" width="51.9998" height="51.7544" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="3"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.161 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_174"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_174" result="shape"/>
+            </filter>
+            </defs>
+            </svg></a> <a href="https://www.instagram.com/oticacelmar"><svg width="23" height="23" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.99 0.00195312C15.557 0.00195312 14.878 0.0269531 12.745 0.121953C11.0859 0.156595 9.44447 0.471011 7.88999 1.05195C6.55511 1.55383 5.34594 2.34118 4.34699 3.35895C3.32831 4.35717 2.54083 5.56655 2.03999 6.90195C1.45816 8.45619 1.14371 10.0977 1.10999 11.757C1.00999 13.89 0.98999 14.569 0.98999 20.002C0.98999 25.435 1.01499 26.114 1.10999 28.247C1.1448 29.9061 1.45921 31.5474 2.03999 33.102C2.54227 34.4366 3.32956 35.6457 4.34699 36.645C5.34566 37.6631 6.55491 38.4505 7.88999 38.952C9.44457 39.5326 11.0859 39.847 12.745 39.882C14.878 39.982 15.557 40.002 20.99 40.002C26.423 40.002 27.102 39.977 29.235 39.882C30.894 39.8463 32.5352 39.5319 34.09 38.952C35.419 38.4384 36.6259 37.6527 37.6333 36.6453C38.6408 35.6379 39.4265 34.4309 39.94 33.102C40.5208 31.5474 40.8352 29.9061 40.87 28.247C40.97 26.114 40.99 25.435 40.99 20.002C40.99 14.569 40.965 13.89 40.87 11.757C40.8345 10.0979 40.5201 8.45666 39.94 6.90195C39.4375 5.5674 38.6502 4.35836 37.633 3.35895C36.635 2.33994 35.4256 1.55241 34.09 1.05195C32.5357 0.470381 30.8942 0.155945 29.235 0.121953C27.102 0.0219531 26.423 0.00195312 20.99 0.00195312ZM20.99 3.60195C26.328 3.60195 26.965 3.62895 29.073 3.71995C30.3409 3.73532 31.5967 3.96942 32.785 4.41195C33.6501 4.74239 34.4357 5.25166 35.0905 5.90647C35.7453 6.56127 36.2546 7.34688 36.585 8.21195C37.0257 9.40062 37.2584 10.6563 37.273 11.924C37.368 14.034 37.39 14.667 37.39 20.007C37.39 25.347 37.365 25.982 37.267 28.09C37.2444 29.3579 37.0078 30.6129 36.567 31.802C36.2407 32.6688 35.7288 33.4539 35.067 34.102C34.4205 34.764 33.6349 35.274 32.767 35.595C31.5738 36.0356 30.3139 36.2683 29.042 36.283C26.919 36.378 26.294 36.4 20.942 36.4C15.59 36.4 14.965 36.375 12.842 36.277C11.5692 36.2545 10.3092 36.0178 9.11499 35.577C8.24575 35.2553 7.45978 34.7427 6.81499 34.077C6.14595 33.4349 5.63284 32.6481 5.31499 31.777C4.87452 30.5833 4.63789 29.3241 4.61499 28.052C4.53999 25.952 4.51499 25.304 4.51499 19.979C4.51499 14.654 4.54199 14.002 4.61499 11.879C4.63787 10.6075 4.8745 9.34891 5.31499 8.15595C5.62812 7.28247 6.1419 6.49468 6.81499 5.85595C7.4534 5.18249 8.24129 4.66865 9.11499 4.35595C10.2993 3.91302 11.5507 3.67627 12.815 3.65595C14.94 3.58095 15.565 3.55595 20.915 3.55595L20.99 3.60195ZM20.99 9.73195C18.9588 9.73195 16.9732 10.3343 15.2843 11.4628C13.5954 12.5912 12.2791 14.1952 11.5017 16.0718C10.7244 17.9484 10.5211 20.0133 10.9173 22.0055C11.3136 23.9977 12.2917 25.8277 13.728 27.2639C15.1643 28.7002 16.9942 29.6783 18.9864 30.0746C20.9786 30.4709 23.0436 30.2675 24.9201 29.4902C26.7967 28.7129 28.4007 27.3966 29.5292 25.7077C30.6577 24.0188 31.26 22.0332 31.26 20.002C31.2601 18.6532 30.9946 17.3177 30.4785 16.0716C29.9624 14.8256 29.206 13.6934 28.2523 12.7397C27.2986 11.786 26.1664 11.0295 24.9203 10.5134C23.6742 9.99737 22.3387 9.73182 20.99 9.73195ZM20.99 26.669C19.6714 26.669 18.3824 26.2779 17.286 25.5454C16.1896 24.8128 15.3351 23.7715 14.8305 22.5533C14.3259 21.3351 14.1938 19.9946 14.4511 18.7013C14.7083 17.408 15.3433 16.2201 16.2757 15.2877C17.2081 14.3553 18.3961 13.7203 19.6893 13.4631C20.9826 13.2058 22.3231 13.3378 23.5413 13.8424C24.7596 14.3471 25.8008 15.2016 26.5334 16.298C27.266 17.3943 27.657 18.6833 27.657 20.002C27.6573 20.8776 27.485 21.7446 27.15 22.5536C26.8151 23.3626 26.324 24.0977 25.7049 24.7168C25.0857 25.336 24.3506 25.827 23.5417 26.162C22.7327 26.4969 21.8656 26.6692 20.99 26.669ZM34.067 9.32695C34.067 9.80163 33.9262 10.2656 33.6625 10.6603C33.3988 11.055 33.024 11.3626 32.5854 11.5443C32.1469 11.7259 31.6643 11.7734 31.1988 11.6808C30.7332 11.5882 30.3056 11.3597 29.9699 11.024C29.6343 10.6884 29.4057 10.2607 29.3131 9.79517C29.2205 9.32962 29.268 8.84706 29.4497 8.40851C29.6313 7.96997 29.9389 7.59514 30.3336 7.33143C30.7283 7.06771 31.1923 6.92695 31.667 6.92695C32.3035 6.92695 32.914 7.17981 33.364 7.6299C33.8141 8.07998 34.067 8.69043 34.067 9.32695Z" fill="#E97707"/>
+              </svg></a>
+              </div>
+            
        </ul>
-      <div class="localizacao__mapa">
-        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.30580851855!2d-46.837058185480956!3d-23.521500984702698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf01e7fddb07ef%3A0x3cb90a7b466190b1!2sAv.%20Miriam%2C%20180%20-%20Centro%2C%20Carapicu%C3%ADba%20-%20SP%2C%2006320-060!5e0!3m2!1spt-BR!2sbr!4v1642440035382!5m2!1spt-BR!2sbr" width="400" height="300" style="border:1;" allowfullscreen="" loading="lazy" ></iframe> -->
-        <!-- Street View -->
-        <iframe src="https://www.google.com/maps/embed?pb=!4v1642442485885!6m8!1m7!1spXlAq29rB_oloNaFkz9qVQ!2m2!1d-23.52159843258136!2d-46.8348594693127!3f349.5108!4f0!5f0.7820865974627469" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
-    </div>
-    </address>
-    
+     </div>
+      <!-- Street View -->
+         <iframe src="https://www.google.com/maps/embed?pb=!4v1642442485885!6m8!1m7!1spXlAq29rB_oloNaFkz9qVQ!2m2!1d-23.52159843258136!2d-46.8348594693127!3f349.5108!4f0!5f0.7820865974627469" max-width="375" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+      </address>
    </section>
+    <!-- <section class="rodape">
+      <pre>
+
+
+
+        
+      </pre>
+    </section>   -->
+    </main>
     
-</main>
+    <footer class="rodape">
+      
+      <img src="assets/imagens/logo-rodape.svg" width="100" height="70"> 
+      <p>Todos os direitos reservados  © Vianna Produções</p>
+    </footer> 
+    
+    
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
